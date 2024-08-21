@@ -19,8 +19,8 @@ mvn spring-boot:run ```
  curl -X POST http://localhost:8080/auth/signup \
 -H "Content-Type: application/json" \
 -d '{
-    "email": "testuser@example.com", 
-    "password": "password"
+    "email": "springtest@gmail.com", 
+    "password": "password@1234"
 }' ``
 
 ##Signin
@@ -29,8 +29,8 @@ mvn spring-boot:run ```
 curl -X POST http://localhost:8080/auth/signin \
 -H "Content-Type: application/json" \
 -d '{
-    "email": "testuser@example.com", 
-    "password": "password"
+    "email": "springtest@gmail.com", 
+    "password": "password@1234"
 }'``
 ## Token Revocation
 # Revoke an existing token to invalidate the user's session.
