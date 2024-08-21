@@ -1,18 +1,18 @@
 ## Authentication Service
 
-#This repository contains a simple authentication service that supports user registration, login, JWT token-based authorization, token revocation, and token refreshing.
+# This repository contains a simple authentication service that supports user registration, login, JWT token-based authorization, token revocation, and token refreshing.
 
 ## Getting Started
 
-To get started with the authentication service, clone the repository and set up your environment.
+# To get started with the authentication service, clone the repository and set up your environment.
 
-```bash
+
 git clone https://github.com/AbhishekJha45/SpringBootRestAPI.git
 cd authentication-service
 # Ensure you have Java and Maven installed, then build the project:
 ```bash
 mvn clean install
-mvn spring-boot:run
+mvn spring-boot:run ```
 # Create a new user account with an email and password.
 ```bash
 ## Signup
@@ -21,7 +21,7 @@ mvn spring-boot:run
 -d '{
     "email": "testuser@example.com", 
     "password": "password"
-}'
+}' ```
 
 ##Signin
 # Authenticate user credentials and receive a JWT token for further requests.
